@@ -1,0 +1,26 @@
+{
+  "output": {
+    "filePath": "ai-context.md",
+    "style": "markdown"
+  },
+  "ignore": {
+    "customPatterns": [
+      "ai-context.md",
+      "repomix-output.xml",
+      "keys/**",
+      "wwwroot/**",
+      "**/*.xml",
+      "**/*.csproj",
+      "**/*.sln",
+      "**/*.user",
+      "**/*.designer.cs",
+      "**/*.g.cs",
+      "**/bin/**",
+      "**/obj/**",
+      "**/.vs/**",
+      "**/Migrations/**"
+    ]
+  }
+}
+
+//repomix --include "Services/**"
